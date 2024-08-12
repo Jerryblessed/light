@@ -1,0 +1,32 @@
+# Project Directory Structure
+
+This document provides an overview of the directory structure for the **"Light💡"** application.
+
+## Project Folders
+
+- **light_app/**
+  - Main application directory. Contains integrations for all light tools via iframe tags.
+
+- **light_chat/**
+  - Files related to the Light Chat feature for real-time conversations during video watching.
+  - Ensure this service is running on localhost before configuring `light_app/pages/chat.js`.
+
+- **light_course/**
+  - Course materials including video lessons and resources.
+  - Ensure this service is running on localhost before configuring `light_app/pages/course.js`.
+
+- **light_Image_Gen/**
+  - Components and resources for image generation using Google Imagen's text-to-image functionality.
+
+- **light_video_uploader/**
+  - Files related to the video uploader feature with Theta Network for video uploading and hosting.
+  - Ensure this service is running on localhost before configuring `light_app/pages/video.js`.
+
+## Setup Instructions
+
+1. **Navigate to `light_app` directory:**
+   - Install dependencies and run the application.
+
+2. **Configure Pages:**
+   - Go to the `pages` folder in `light_app` and make necessary configurations.
+

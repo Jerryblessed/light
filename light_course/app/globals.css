@@ -1,0 +1,19 @@
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --background: #0c0f1a;
+  --primary-color: #595c75;
+  --secondary-color-dark: #1a1d28;
+  --secondary-color-green: #44c294;
+}
+
+body {
+  background: var(--background);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

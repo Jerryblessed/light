@@ -1,0 +1,21 @@
+/* page.module.css */
+.main {
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.logo, .navbar > div {
+  width: 200px;
+}
+
+.navbar h2 {
+  flex: 1;
+  text-align: center;
+}
